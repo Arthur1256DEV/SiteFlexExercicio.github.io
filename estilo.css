@@ -1,0 +1,74 @@
+
+/* Barra de navegação */
+*{
+    margin: 0;
+}
+
+header{
+    padding: 4rem;
+    background: lightgray;
+    min-width:fit-content;
+    max-width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+
+ul li:last-child{
+    background: black;
+    border-radius: 4px;
+    color: white;
+    padding: .8rem;
+
+}
+
+/* Criação do conteúdo */
+.container{
+    display: flex;
+    gap: 1rem;
+}
+
+aside{
+    display: flex;
+    
+    flex-basis: 25%;
+    height: 100vh;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    border-left: 1px ridge blue;
+    width: 75%;
+    height: 100vh;
+    gap: 1rem;
+    flex: 1;
+    
+}
+
+/* Mechendo no FOOTER */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    height: 8rem;
+}
